@@ -1,3 +1,6 @@
+education project agenda. simply agenda on material tabs. 	
+receipt data from json-file
+
 # Agenda
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
