@@ -1,0 +1,429 @@
+{
+    "order": ["date", "start", "end", "title", "place", "speaker", "order", "icon"],
+    "reference": "agenda_1",
+    "title": "ПРОГРАММА: CV line",
+    "type": "files",
+    "headers": {
+        "date": {
+            "title": "дата",
+            "type": "list",
+            "options": ["02.10", "03.10", "04.10", "05.10", "06.10"],
+            "mandatory": false
+        },
+        "start": {
+            "title": "начало",
+            "type": "text",
+            "mandatory": false
+        },
+        "end": {
+            "title": "конец",
+            "type": "text",
+            "mandatory": false
+        },
+        "title": {
+            "title": "название блока",
+            "type": "text",
+            "mandatory": false
+        },
+        "place": {
+            "title": "место",
+            "type": "text",
+            "mandatory": false
+        },
+        "speaker": {
+            "title": "Спикер",
+            "type": "text",
+            "mandatory": false
+        },
+        "order": {
+            "title": "Порядок (в пределах вкладки)",
+            "type": "text",
+            "mandatory": false
+        },
+        "icon": {
+            "title": "иконка",
+            "type": "file",
+            "mandatory": false
+        }
+    },
+    "values": {
+        "1ffb2bdb-d3c5-499f-8d6c-eacfa646091a": {
+            "date": "0",
+            "start": "08:00 ",
+            "end": " 21:00",
+            "title": "Приезд",
+            "order": "10"
+        },
+        "bc3fabb0-db5b-482a-9145-7dac2a4be156": {
+            "date": "1",
+            "start": "09:00 ",
+            "end": " 11:00",
+            "title": "Пленарное заседание",
+            "place": "Зал Премьер 2+3",
+            "order": "20"
+        },
+        "784bc2e5-4164-4180-a9df-52d560d24993": {
+            "date": "1",
+            "start": "09:00",
+            "speaker": "Эндреньи Т.,  Генеральный директор",
+            "order": "30"
+        },
+        "aabf7e8b-06f1-49f6-8565-90dec657a54e": {
+            "date": "1",
+            "start": "09:50",
+            "speaker": "Салихов М.О.,  Директор отдела маркетинга",
+            "order": "40"
+        },
+        "3531b16e-3da1-42cb-a0fc-4c55bc162bb3": {
+            "date": "1",
+            "start": "10:20",
+            "speaker": "Альбинская И.В.,  Директор отдела по обеспечению продаж",
+            "order": "50"
+        },
+        "60323b25-af28-4e1e-91e2-50e2c41fa3cb": {
+            "date": "1",
+            "start": "10:50",
+            "speaker": "Сирциско О.В.,  Директор финансового отдела",
+            "order": "60"
+        },
+        "0190e2ea-451e-4846-b33e-4239c6dd7046": {
+            "date": "1",
+            "start": "11:00 ",
+            "end": " 11:30",
+            "title": "Кофе-брейк",
+            "order": "70",
+            "icon": "files/coffee-cup.png"
+        },
+        "a2c95782-eafb-4a14-9a19-3d7aadcb5ca2": {
+            "date": "1",
+            "start": "11:30 ",
+            "end": " 13:00",
+            "title": "Пленарное заседание",
+            "place": "Зал Премьер 2+3",
+            "order": "80"
+        },
+        "f9758d00-11cb-4b05-a1f9-5a76d82ba803": {
+            "date": "1",
+            "start": "11:30",
+            "speaker": "Петруничкина Е.Г.,  Директор коммерческого отдела",
+            "order": "90"
+        },
+        "e4f18c76-fba5-4c4e-b99b-ac118f52cb87": {
+            "date": "1",
+            "start": "12:00",
+            "speaker": "Жиронкина А.Е.,  Руководитель группы КАМов по работе со стационарами",
+            "order": "100"
+        },
+        "388711bd-2dee-4946-bf0b-5ab673eec9a4": {
+            "date": "1",
+            "start": "12:15",
+            "speaker": "Агафонов С.Н.,  Руководитель группы КАМов по работе с аптечными сетями",
+            "order": "110"
+        },
+        "579bbb18-ffda-4130-8a52-1eba6cb59b00": {
+            "date": "1",
+            "start": "12:30 ",
+            "speaker": "Манзанова Е.Ю.,  Руковолитель отдела поддержки управленческих решений",
+            "order": "120"
+        },
+        "71ecc2d5-4cc0-4923-ba42-5e431b235e4b": {
+            "date": "1",
+            "start": "13:00 ",
+            "end": " 15:00",
+            "title": "Обед",
+            "order": "130",
+            "icon": "files/cutlery.png"
+        },
+        "a76b8947-035a-4e3d-a1c8-5be238731d91": {
+            "date": "1",
+            "start": "15:00 ",
+            "end": " 17:00",
+            "title": "Пленарное заседание",
+            "place": "Зал Премьер 2+3",
+            "order": "140"
+        },
+        "e2bbd409-8fc1-464f-a4a3-f619b43479a2": {
+            "date": "1",
+            "start": "15:00",
+            "speaker": "Гордеева Ю.А.,  Менеджер по развитию эффективности",
+            "order": "150"
+        },
+        "665644ba-f94a-44b5-b2a2-0db8bcaa975d": {
+            "date": "1",
+            "start": "15:20",
+            "speaker": "Кориненко А.П. Руководитель направления систем маркетинга и продаж",
+            "order": "160"
+        },
+        "fa5bb488-8a22-45aa-a84a-58bda3722b84": {
+            "date": "1",
+            "start": "15:30",
+            "speaker": "Поморцева И.В.,  Директор отдела НИиМКО",
+            "order": "170"
+        },
+        "1b70068b-aded-4284-ab9c-3b309596c7eb": {
+            "date": "1",
+            "start": "16:00",
+            "speaker": "Мальцева Н.Б.,  Директор отдела персонала",
+            "order": "180"
+        },
+        "5fda8802-ea57-4c1d-819e-3f8925557c5d": {
+            "date": "1",
+            "start": "17:00 ",
+            "end": " 17:30",
+            "title": "Кофе-брейк",
+            "order": "190",
+            "icon": "files/coffee-cup.png"
+        },
+        "b738e730-a71b-4814-8c18-8c33a0a57db0": {
+            "date": "1",
+            "start": "19:00 ",
+            "end": " 21:00",
+            "title": "Ужин",
+            "order": "200",
+            "icon": "files/cutlery.png"
+        },
+        "2d8ddabd-8ecc-4e42-ac65-aba27676c6a2": {
+            "date": "2",
+            "start": "09:00 ",
+            "end": " 09:30",
+            "title": "Вступление",
+            "place": "Зал Премьер 3",
+            "speaker": "Герасимова Е.",
+            "order": "210"
+        },
+        "dd0b8a4a-9675-4d16-94cc-0b23bd3f3256": {
+            "date": "2",
+            "start": "09:30 ",
+            "end": " 10:10",
+            "title": "Rosulip, маркетинговая стратегия",
+            "place": "Зал Премьер 3",
+            "order": "220"
+        },
+        "4820f069-d56f-41d9-902a-078d4b6c8855": {
+            "start": "10:10 ",
+            "end": " 10:30",
+            "title": "Rosulip, SMART-визит",
+            "place": "Зал Премьер 3",
+            "order": "230",
+            "date": "2"
+        },
+        "e53acd86-7a08-46b5-bb89-a2469c7775c2": {
+            "date": "2",
+            "start": "11:30 ",
+            "end": " 12:10",
+            "title": "Allopurinol, маркетинговая стратегия",
+            "place": "Зал Премьер 3",
+            "order": "260"
+        },
+        "ed900c41-a37f-47a7-9249-9aad1b70ba86": {
+            "date": "2",
+            "start": "10:30 ",
+            "end": " 11:00",
+            "title": "Кофе-брейк",
+            "order": "240",
+            "icon": "files/coffee-cup.png"
+        },
+        "9b3f0bf5-eaa6-471a-92fd-1f521df29b9e": {
+            "date": "2",
+            "start": "11:00 ",
+            "end": " 11:30",
+            "title": "Rosulip, Ролевые игры",
+            "place": "Зал Премьер 3",
+            "order": "250"
+        },
+        "cafca178-c023-49af-90d2-4ba9c07ddd0b": {
+            "date": "2",
+            "start": "12:10 ",
+            "end": " 13:00",
+            "title": "Allopurinol, Медицинские аспекты",
+            "place": "Зал Премьер 3",
+            "speaker": "OL Цурко В.В.",
+            "order": "270"
+        },
+        "eab9f714-3466-4bc0-8103-05f88f485015": {
+            "date": "2",
+            "start": "13:00 ",
+            "end": " 14:00",
+            "title": "Обед",
+            "order": "280",
+            "icon": "files/cutlery.png"
+        },
+        "3b09825f-5561-4f8b-ba91-44bd0efff4d4": {
+            "date": "2",
+            "start": "14:00 ",
+            "end": " 14:40",
+            "title": "Allopurinol, SMART-визит",
+            "place": "Зал Премьер 3",
+            "order": "290"
+        },
+        "dc8ca0c2-4d6a-45d9-8eea-8e11fb483d70": {
+            "date": "2",
+            "start": "14:40 ",
+            "end": " 15:30",
+            "title": "Allopurinol, Ролевые игры",
+            "place": "Зал Премьер 3",
+            "order": "300"
+        },
+        "7c2429f6-de9e-4754-b3c0-842582220daf": {
+            "date": "2",
+            "start": "15:30 ",
+            "end": " 16:00",
+            "title": "Кофе-брейк",
+            "order": "310",
+            "icon": "files/coffee-cup.png"
+        },
+        "af4ddd1b-37e6-4db9-9a48-3f2dcb70bff3": {
+            "date": "2",
+            "start": "16:00 ",
+            "end": " 16:30",
+            "title": "Брефи",
+            "place": "Зал Премьер 3",
+            "order": "320"
+        },
+        "3116c190-8ef3-4ba8-ab6c-5b885e0fcd9c": {
+            "date": "2",
+            "start": "16:30 ",
+            "end": " 17:00",
+            "title": "Pharmacy network",
+            "place": "Зал Премьер 3",
+            "speaker": "Поморцева И.",
+            "order": "330"
+        },
+        "a364d5f4-e4db-448e-87ca-06ac91d979bf": {
+            "date": "2",
+            "start": "17:00 ",
+            "end": " 17:30",
+            "title": "CallnGo",
+            "place": "Зал Премьер 3",
+            "speaker": "Корниенко А.",
+            "order": "340"
+        },
+        "28367a26-2a6d-4f6a-a5dd-ca05de33895a": {
+            "date": "2",
+            "start": "18:00 ",
+            "end": " 21:00",
+            "title": "Ужин",
+            "order": "350",
+            "icon": "files/cutlery.png"
+        },
+        "de5af819-4aaf-4dad-a346-e0ddee6fa67e": {
+            "date": "3",
+            "start": "09:00 ",
+            "end": " 09:40",
+            "title": "Egipres, маркетинговая стратегия",
+            "place": "Зал Премьер 3",
+            "order": "360"
+        },
+        "9e39635f-4a71-463c-b9e5-e3792f41a12e": {
+            "date": "3",
+            "start": "09:40 ",
+            "end": " 10:00",
+            "title": "Egipres, SMART-визит",
+            "place": "Зал Премьер 3",
+            "order": "370"
+        },
+        "837e869a-8d4b-4dfc-9cb5-1a63a26c818a": {
+            "date": "3",
+            "start": "10:00 ",
+            "end": " 10:45",
+            "title": "Egipres, Ролевые игры",
+            "place": "Зал Премьер 3",
+            "order": "380"
+        },
+        "596cbe7c-5916-4bc8-b1b9-bdc6af934077": {
+            "date": "3",
+            "start": "10:45 ",
+            "end": " 11:15",
+            "title": "Кофе-брейк",
+            "order": "390",
+            "icon": "files/coffee-cup.png"
+        },
+        "b2d54f24-94e8-42ff-9b4f-c9d3c95195f4": {
+            "date": "3",
+            "start": "11:15 ",
+            "end": " 12:00",
+            "title": "Hartil, маркетинговая стратегия",
+            "place": "Зал Премьер 3",
+            "order": "400"
+        },
+        "d929f4d3-5173-4af5-b071-08f9a0f7cbb0": {
+            "date": "3",
+            "start": "12:00 ",
+            "end": " 12:30",
+            "title": "Hartil, SMART-визит",
+            "place": "Зал Премьер 3",
+            "order": "410"
+        },
+        "afd46d3d-467b-4a3a-bf55-d7bfe7124cf6": {
+            "date": "3",
+            "start": "12:30 ",
+            "end": " 13:00",
+            "title": "Hartil, Ролевые игры",
+            "place": "Зал Премьер 3",
+            "order": "420"
+        },
+        "98e60df9-7859-43b1-b73f-b61d02878e8e": {
+            "date": "3",
+            "start": "13:00 ",
+            "end": " 14:00",
+            "title": "Обед",
+            "order": "430",
+            "icon": "files/cutlery.png"
+        },
+        "591ce912-7e58-4e24-9d16-f653344ba3b4": {
+            "date": "3",
+            "start": "14:00 ",
+            "end": " 14:30",
+            "title": "Egilok, маркетинговая стратегия",
+            "place": "Зал Премьер 3",
+            "order": "440"
+        },
+        "89d0fddf-2917-4be5-be86-5057e4bdf66c": {
+            "date": "3",
+            "start": "14:30 ",
+            "end": " 15:00",
+            "title": "Egilok, SMART-визит",
+            "place": "Зал Премьер 3",
+            "order": "450"
+        },
+        "d2c2f4c2-c898-4072-9d2b-5d1c932a48c8": {
+            "date": "3",
+            "start": "15:00 ",
+            "end": " 15:30",
+            "title": "Egilok, Ролевые игры",
+            "place": "Зал Премьер 3",
+            "order": "460"
+        },
+        "ba7c50c9-60c7-42b8-90cb-274cafc47213": {
+            "date": "3",
+            "start": "15:30 ",
+            "end": " 16:00",
+            "title": "Кофе-брейк",
+            "order": "470",
+            "icon": "files/coffee-cup.png"
+        },
+        "1cb29578-69bf-4f07-ae75-e899582907dc": {
+            "date": "3",
+            "start": "16:00 ",
+            "end": " 17:00",
+            "title": "Мониторинг маркетинговых проектов, CNS and CV (RM лидеры проектов + RD)",
+            "place": "Зал Премьер 3",
+            "order": "480"
+        },
+        "9904a4ff-df2d-4b29-a7f2-04f4072c72ee": {
+            "date": "3",
+            "start": "18:00 ",
+            "end": " 21:00",
+            "title": "Ужин",
+            "order": "490",
+            "icon": "files/cutlery.png"
+        },
+        "ad849526-8bb0-48b0-97e2-d7ff0c672bcd": {
+            "date": "4",
+            "start": "09:00 ",
+            "end": " 13:00",
+            "title": "Тимбилдинг",
+            "order": "500"
+        }
+    }
+}
