@@ -4,12 +4,12 @@
   <mat-tab label="{{ date }}" *ngFor="let date of dates; let iDate = index">
     <div class="tab-inner">
       <div  class="line" 
-            *ngFor="let line of agenda | orderBy:'order' ; let iLine = index" 
+            *ngFor="let line of agenda | orderBy:'order':false ; let iLine = index" 
             [hidden]="+line.date != +iDate || !line.title">
         <div class="line-inner" >
           <div class="left">
             <div class="time-start" *ngIf="line.start && line.end">
-              {{ line.start.trim() }} - {{ line.end.trim() }}<!--  = {{line.order}} -->
+              {{ line.start.trim() }} - {{ line.end.trim() }} = {{line.order}}
             </div>
           </div>
 
